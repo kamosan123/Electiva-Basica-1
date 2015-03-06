@@ -1,0 +1,144 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+   z-index: -100;
+    visibility: visible;
+}
+#contenedor {
+position: absolute;
+height: 511px;
+width: 926px;
+margin-left: 226px;
+margin-top: 38px;
+border-radius: 1.5%;
+background: rgba(253, 253, 253, 0.77);
+-webkit-box-shadow: 5px 5px 11px 0px rgba(30, 30, 30, 1);
+-moz-box-shadow:    5px 5px 11px 0px rgba(30, 30, 30, 1);
+box-shadow:         5px 5px 11px 0px rgba(30, 30, 30, 1);
+	
+}
+#titulo{
+	position: relative;
+	margin-top: 23px;
+    margin-left: 268px;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 4px 0px 1px rgba(140, 90, 86, 0.71);
+	font-size: 48px;
+	
+}
+
+.descripcion{
+	position: relative;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 241px;
+	margin-left: 300px;
+    text-shadow: 1px 0px 1px rgba(38, 38, 38, 1);
+    font-size: 23px;
+
+}
+
+.menu li
+{
+	display: inline-block;
+	line-height: 35px; /*Superior*/
+	list-style: none; /*Decoración */
+	margin: 0 5px;
+}
+
+#posicion_nav{
+	margin-left: 107px;
+	margin-top: 35px;
+}
+
+.menu li a
+{
+	width: 100px;
+	height: 50px;
+	/*
+	background-image: linear-gradient(
+		top,
+		rgba(255,255,255,.5) 0%,
+		rgba(0,0,0,0.1) 100%
+	);
+	*/
+
+	background-image: -webkit-linear-gradient(
+	 	top,
+		rgba(255,255,255,.5) 0%,
+		rgba(0,0,0,.1) 100%
+	);
+	border: 1px solid gray;
+	border-radius: 1px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.65);
+	color: #f4f4f4; /*Internet Explorer*/
+	color: rgba(255,255,255, 0.8);
+	font: bold 18px "Myriad Pro", "Lucida Grande", Helvetica, Arial, sans-serif;
+	padding: 5px 15px;
+	text-decoration: none;
+	text-shadow: 3px 3px 10px rgba(0,0,0,0.4); 
+	padding: 20px;
+	margin-left: 6px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.azul{
+	background: #4A6EA9;
+}
+.azul2{
+	background: #2CA9E1;
+}
+.morado{
+	background: #6A3252;
+}
+
+.azul:hover{
+	background: #2D5FC7;
+}
+
+.azul2:hover{
+	background: #09AAF2;
+}
+
+.morado:hover{
+	background: #833160;
+}
+
+.azul:active{
+	background: #0854F4;
+}
+
+.azul2:active{
+	background: #5BC9FA;
+}
+.morado:active{
+	background: #9B2669;
+}
+
+.menu_img li{
+	display: inline-block;
+	line-height: 35px; /*Superior*/
+	list-style: none; /*Decoración */
+	margin: 0 5px;
+}
+
+.foto{
+background-image: url("../img/02.jpg");
+
+width: 177px;
+height: 220px;
+margin-left: 605px;
+margin-top: 124px;
+position: absolute;
+z-index: 10px;
+}
+
